@@ -1,0 +1,13 @@
+    .card-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: space-around;
+    }
+
+    @media (min-width: 768px) {
+        .card-header {
+            flex-wrap: wrap;
+        }
+    }
